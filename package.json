@@ -1,14 +1,16 @@
 {
-  "name": "github-hook-resiver",
+  "name": "github-hook-receiver",
   "version": "1.0.0",
   "description": "basic web server to catch github hook to run deploy script",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "build": "nexe main.js --output dist/github-hook-receiver"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alireza-molaee/github-hook-resiver.git"
+    "url": "git+https://github.com/alireza-molaee/github-hook-receiver.git"
   },
   "keywords": [
     "git",
@@ -19,7 +21,11 @@
   "author": "alirezamolaii@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alireza-molaee/github-hook-resiver/issues"
+    "url": "https://github.com/alireza-molaee/github-hook-receiver/issues"
   },
-  "homepage": "https://github.com/alireza-molaee/github-hook-resiver#readme"
+  "homepage": "https://github.com/alireza-molaee/github-hook-receiver#readme",
+  "dependencies": {
+    "nexe": "^3.2.1",
+    "shelljs": "^0.8.3"
+  }
 }
