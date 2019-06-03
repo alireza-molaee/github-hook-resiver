@@ -1,0 +1,25 @@
+{
+  "name": "github-hook-resiver",
+  "version": "1.0.0",
+  "description": "basic web server to catch github hook to run deploy script",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alireza-molaee/github-hook-resiver.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "hook",
+    "deploy"
+  ],
+  "author": "alirezamolaii@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alireza-molaee/github-hook-resiver/issues"
+  },
+  "homepage": "https://github.com/alireza-molaee/github-hook-resiver#readme"
+}
