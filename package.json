@@ -26,6 +26,6 @@
   "homepage": "https://github.com/alireza-molaee/github-hook-receiver#readme",
   "dependencies": {
     "nexe": "^3.2.1",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
